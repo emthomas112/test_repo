@@ -1,5 +1,9 @@
 library(tidyverse)
 
-ggplot(mtcarsm aes(x=cyl, y=mpg)) + 
+ggplot(data=mtcars, mapping=aes(x=cyl, y=mpg)) + 
   geom_point()
+
+#ok what about now? 
+
+ggplot()
 
